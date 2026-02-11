@@ -1,0 +1,12 @@
+D:\project apa aja\BackendPOS\BackendPOS.Application\bin\Debug\net8.0\BackendPOS.Application.deps.json
+D:\project apa aja\BackendPOS\BackendPOS.Application\bin\Debug\net8.0\BackendPOS.Application.dll
+D:\project apa aja\BackendPOS\BackendPOS.Application\bin\Debug\net8.0\BackendPOS.Application.pdb
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\BackendPOS.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\BackendPOS.Application.AssemblyInfoInputs.cache
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\BackendPOS.Application.AssemblyInfo.cs
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\BackendPOS.Application.csproj.CoreCompileInputs.cache
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\BackendPOS.Application.dll
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\refint\BackendPOS.Application.dll
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\BackendPOS.Application.pdb
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\ref\BackendPOS.Application.dll
+D:\project apa aja\BackendPOS\BackendPOS.Application\obj\Debug\net8.0\BackendPOS.Application.csproj.AssemblyReference.cache

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hFP87IE9uShqQw30du8VA7ORCeU4gCNgMj3ft6vOeqs=",
+  "Source": "BackendPOS.Api",
+  "BasePath": "_content/BackendPOS.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
