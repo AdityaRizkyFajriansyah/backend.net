@@ -1,5 +1,6 @@
 using BackendPOS.Domain.Entities;
 using BackendPOS.Infrastructure.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,13 +8,14 @@ namespace BackendPOS.Api.Controllers;
 
 [ApiController]
 [Route("api/products")]
-public class ProductsControlller : ControllerBase
+public class ProductsController : ControllerBase
 {
     private readonly PosDbContext _db;
-    public ProductsControlller(PosDbContext db) => _db = db;
+    public ProductsController(PosDbContext db) => _db = db;
 
+    [Authorize]
     [HttpGet]
-    public async Task<IActionResult> Get()
+    public async Task<IActionResult> GetAll()
     {
         var items = await _db.Products.AsNoTracking()
             .OrderByDescending(x => x.CreatedAtUtc)
@@ -22,6 +24,7 @@ public class ProductsControlller : ControllerBase
         return Ok(items);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] Product req)
     {

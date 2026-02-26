@@ -44,6 +44,16 @@
             "related": ".xml"
           }
         }
+      },
+      "BackendPOS.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BackendPOS.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BackendPOS.Domain.dll": {}
+        }
       }
     }
   },
@@ -90,28 +100,34 @@
         "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
+    },
+    "BackendPOS.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BackendPOS.Domain/BackendPOS.Domain.csproj",
+      "msbuildProject": "../BackendPOS.Domain/BackendPOS.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BackendPOS.Domain >= 1.0.0",
       "FluentValidation >= 12.1.1",
       "FluentValidation.DependencyInjectionExtensions >= 12.1.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\adity\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project apa aja\\BackendPOS\\BackendPOS.Application\\BackendPOS.Application.csproj",
+      "projectUniqueName": "E:\\project apa aja\\backend.net\\BackendPOS.Application\\BackendPOS.Application.csproj",
       "projectName": "BackendPOS.Application",
-      "projectPath": "D:\\project apa aja\\BackendPOS\\BackendPOS.Application\\BackendPOS.Application.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\project apa aja\\BackendPOS\\BackendPOS.Application\\obj\\",
+      "projectPath": "E:\\project apa aja\\backend.net\\BackendPOS.Application\\BackendPOS.Application.csproj",
+      "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
+      "outputPath": "E:\\project apa aja\\backend.net\\BackendPOS.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\adity\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -122,7 +138,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj": {
+              "projectPath": "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

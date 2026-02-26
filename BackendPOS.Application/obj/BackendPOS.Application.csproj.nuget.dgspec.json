@@ -1,20 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project apa aja\\BackendPOS\\BackendPOS.Application\\BackendPOS.Application.csproj": {}
+    "E:\\project apa aja\\backend.net\\BackendPOS.Application\\BackendPOS.Application.csproj": {}
   },
   "projects": {
-    "D:\\project apa aja\\BackendPOS\\BackendPOS.Application\\BackendPOS.Application.csproj": {
+    "E:\\project apa aja\\backend.net\\BackendPOS.Application\\BackendPOS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project apa aja\\BackendPOS\\BackendPOS.Application\\BackendPOS.Application.csproj",
+        "projectUniqueName": "E:\\project apa aja\\backend.net\\BackendPOS.Application\\BackendPOS.Application.csproj",
         "projectName": "BackendPOS.Application",
-        "projectPath": "D:\\project apa aja\\BackendPOS\\BackendPOS.Application\\BackendPOS.Application.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\project apa aja\\BackendPOS\\BackendPOS.Application\\obj\\",
+        "projectPath": "E:\\project apa aja\\backend.net\\BackendPOS.Application\\BackendPOS.Application.csproj",
+        "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
+        "outputPath": "E:\\project apa aja\\backend.net\\BackendPOS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\adity\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj": {
+                "projectPath": "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj",
+        "projectName": "BackendPOS.Domain",
+        "projectPath": "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj",
+        "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
+        "outputPath": "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\adity\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,16 +114,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[12.1.1, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[12.1.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

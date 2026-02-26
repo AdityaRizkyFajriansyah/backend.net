@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "BackendPOS.Application/1.0.0": {
         "dependencies": {
+          "BackendPOS.Domain": "1.0.0",
           "FluentValidation": "12.1.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1"
         },
@@ -42,6 +43,14 @@
             "fileVersion": "2.1.0.18136"
           }
         }
+      },
+      "BackendPOS.Domain/1.0.0": {
+        "runtime": {
+          "BackendPOS.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -71,6 +80,11 @@
       "sha512": "sha512-8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    },
+    "BackendPOS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

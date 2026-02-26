@@ -9,3 +9,15 @@ D:\project apa aja\BackendPOS\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Doma
 D:\project apa aja\BackendPOS\BackendPOS.Domain\obj\Debug\net8.0\refint\BackendPOS.Domain.dll
 D:\project apa aja\BackendPOS\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Domain.pdb
 D:\project apa aja\BackendPOS\BackendPOS.Domain\obj\Debug\net8.0\ref\BackendPOS.Domain.dll
+E:\project apa aja\backend.net\BackendPOS.Domain\bin\Debug\net8.0\BackendPOS.Domain.deps.json
+E:\project apa aja\backend.net\BackendPOS.Domain\bin\Debug\net8.0\BackendPOS.Domain.dll
+E:\project apa aja\backend.net\BackendPOS.Domain\bin\Debug\net8.0\BackendPOS.Domain.pdb
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Domain.AssemblyInfoInputs.cache
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Domain.AssemblyInfo.cs
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Domain.csproj.CoreCompileInputs.cache
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Domain.sourcelink.json
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Domain.dll
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\refint\BackendPOS.Domain.dll
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\BackendPOS.Domain.pdb
+E:\project apa aja\backend.net\BackendPOS.Domain\obj\Debug\net8.0\ref\BackendPOS.Domain.dll

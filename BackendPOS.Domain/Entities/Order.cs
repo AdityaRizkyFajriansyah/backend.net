@@ -12,4 +12,6 @@ public class Order
     public DateTime CreatedAtUtc { get; set; } = DateTime.UtcNow;
 
     public List<OrderItem> Items { get; set; } = new();
+
+    public DateTime? PaidAtUtc { get; set;}
 }

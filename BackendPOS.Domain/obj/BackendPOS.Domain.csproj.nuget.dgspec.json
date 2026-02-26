@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project apa aja\\BackendPOS\\BackendPOS.Domain\\BackendPOS.Domain.csproj": {}
+    "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj": {}
   },
   "projects": {
-    "D:\\project apa aja\\BackendPOS\\BackendPOS.Domain\\BackendPOS.Domain.csproj": {
+    "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project apa aja\\BackendPOS\\BackendPOS.Domain\\BackendPOS.Domain.csproj",
+        "projectUniqueName": "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj",
         "projectName": "BackendPOS.Domain",
-        "projectPath": "D:\\project apa aja\\BackendPOS\\BackendPOS.Domain\\BackendPOS.Domain.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\project apa aja\\BackendPOS\\BackendPOS.Domain\\obj\\",
+        "projectPath": "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\BackendPOS.Domain.csproj",
+        "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
+        "outputPath": "E:\\project apa aja\\backend.net\\BackendPOS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\adity\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
